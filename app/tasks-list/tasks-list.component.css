@@ -1,0 +1,77 @@
+.page {
+    margin: 0 15px;
+
+}
+
+.title {
+    color: #44454E;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+}
+
+.message {
+    color: #A1A1A1;
+    font-size: .8rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+
+th,
+td {
+    color: #424242;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 12px;
+}
+
+th {
+    color: #232222;
+    text-align: center;
+    font-weight: 500;
+    line-height: normal;
+}
+
+thead tr {
+    border-bottom: 0.998px solid #8E8B9B;
+    background: #F3F3F5;
+}
+
+tbody tr {
+    border-bottom: 1px solid #C6C5CD;
+    background: #FFF;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+button {
+    font-size: 1.2rem;
+    border: none;
+    width: 35px;
+    height: 35px;
+    line-height: normal;
+    display: inline-block;
+    color: #287EB9;
+    background-color: white;
+    border-radius: 50%;
+}
+.center{
+    text-align: center;
+}

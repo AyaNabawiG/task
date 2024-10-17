@@ -1,0 +1,98 @@
+.details-card {
+    background: linear-gradient(135deg, #cfd1d1, #cfd1d1); 
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1), 0 6px 12px rgba(0, 0, 0, 0.05);
+    color: white;
+    max-width: 800px;
+    margin: 40px auto 20px ;
+    transition: transform 0.3s ease;
+  }
+  .icon{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .details-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .details-card h3 {
+    margin-top: 0;
+    font-size: 1.8rem;
+    color: #171819;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .details-card-content p {
+    margin: 10px 0;
+    font-size: 1.1rem;
+    color: #202223;
+  }
+  
+  .details-card-content p strong {
+    font-weight: 600;
+    color: #202223;
+  }
+  
+  .status-success {
+    background-color: #28a745;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .status-danger {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Button styles */
+  .action-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+
+  .action-btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+  }
+
+  .details-card, .action-btn {
+    transition: all 0.3s ease;
+  }
+  .actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  
+  

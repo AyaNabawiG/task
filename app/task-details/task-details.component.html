@@ -1,0 +1,38 @@
+<div *ngIf="data" class="details-card">
+
+    <div class="icon">
+        <i class="fas fa-info-circle"></i>
+    </div>
+  <h3>{{ data.title }}</h3>
+  <div class="details-card-content">
+    <p>{{ data.description }}</p>
+    <p>
+      <strong>Completion: &nbsp;</strong>
+      <span
+        [ngClass]="{
+          'status-success': data.status,
+          'status-danger': !data.status
+        }"
+      >
+        <i class="fas fa-check-circle" *ngIf="data.status"></i>
+        <i class="fas fa-exclamation-circle" *ngIf="!data.status"></i>
+        {{ data.status ? "Completed" : "Pending" }}
+      </span>
+    </p>
+   <div class="actions">
+  <button routerLink="../../" class="action-btn"><i class="fa-solid fa-arrow-left"></i> back</button>
+
+    <button
+    class="action-btn"
+    (click)="closeCompletion()"
+    [ngClass]="{
+      'btn-success': !data.status,
+      'btn-danger': data.status
+    }"
+  >
+    <i class="fas fa-sync-alt"></i>
+    {{ data.status ? "Mark Pending" : "Mark Completed" }}
+  </button>
+   </div>
+  </div>
+</div>
